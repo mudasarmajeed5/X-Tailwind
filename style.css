@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+}
+.header{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.whats{
+    border-bottom: 1px solid slategrey;
+}
+.uploadss span{
+    border-radius: 100px;
+    padding: 3px;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+}
+.uploadss span:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.overflow-auto{
+    height: 100vh;
+}
+
+.center{
+    height: 100vh;
+    overflow: auto;
+}
+@media only screen and (max-width:900px){
+    
+.right{
+    display: none;
+}
+#hide_phone{
+    display: none;
+
+}
+.buttons ul {
+    padding: 5px;
+
+}
+.left{
+    width: 15vw;
+}
+
+}
+
+@media only screen and (min-width:1200px){
+    ul li{
+        font-size: 14px;
+    }
+}
+
+
